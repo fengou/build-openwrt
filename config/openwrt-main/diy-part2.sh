@@ -26,7 +26,7 @@ echo "DISTRIB_SOURCECODE='official'" >>package/base-files/files/etc/openwrt_rele
 #svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 
 #Add luci-app-argon theme
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/lime-packages
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-app-agron
 
 # coolsnowwolf default software package replaced with Lienol related software package
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
